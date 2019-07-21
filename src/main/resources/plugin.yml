@@ -1,0 +1,17 @@
+name: ${project.artifactId}
+version: ${project.version}
+main: jp.titleserver.${project.artifactId}.Main
+author: Nazuna
+description: Nazuna's Plugin
+website: https://twitter.com/naz_7z
+
+commands:
+  customfood:
+    description: Main command of this plugin
+    aliases: [newcustomfoods, cf, food]
+    usage: /<command>
+    default: true
+permissions:
+  CustomFoods.op:
+    description: operator permission
+    default: op
